@@ -1,11 +1,29 @@
 * {
   margin: 0;
   padding: 0;
+  line-height: 1.5;
   box-sizing: border-box;
 }
 
 body {
-  width: 100%;
   height: 100vh;
-  background: url(assets/freedom.png);
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 2rem;
+  background: url(assets/freedom.png) center no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+blockquote {
+  font-family: "Julius Sans One", sans-serif;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  letter-spacing: .015rem;
+  margin: 2em 0;
+}
+
+em {
+  font-family: "Crimson Text", serif;
+  font-size: 1.5rem;
 }
