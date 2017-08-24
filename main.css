@@ -17,13 +17,34 @@ body {
 
 blockquote {
   font-family: "Julius Sans One", sans-serif;
-  font-size: 2.5rem;
   text-transform: uppercase;
   letter-spacing: .015rem;
-  margin: 2em 0;
 }
 
 em {
   font-family: "Crimson Text", serif;
-  font-size: 1.5rem;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    padding-top: 10vh;
+  }
+  
+  blockquote {
+    font-size: 2rem;
+  }
+  
+  em {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {  
+  blockquote {
+    font-size: 2.5rem;
+  }
+  
+  em {
+    font-size: 1.5rem;
+  }
 }
